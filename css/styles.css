@@ -1,0 +1,68 @@
+body {
+    font-family: monospace;
+    text-align: center;
+    background-color: azure;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    color: crimson;
+    margin: 0.2em;
+}
+
+h2 {
+    font-family: monospace;
+    margin: 3em 0 1em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+.design-canvas {
+    margin-top: 6em;
+}
+
+table,
+tr,
+td {
+    border: 2px solid;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+hr {
+    margin: 3em 0;
+}
+
+input {
+    border-radius: 2px;
+}
+
+input[type=number] {
+    width: 6em;
+    padding: .5em 0;
+    padding-left: 1em;
+    background-color: beige;
+    font-weight: bold;
+}
+
+input[type=submit] {
+    font-family: monospace;
+    font-weight: bold;
+    width: 6em;
+    padding: 1em 1em;
+    background-color: aliceblue;
+}
