@@ -21,10 +21,12 @@ $('#sizePicker').submit(function(event) {
     makeGrid();
 });
 
-$('#pixel_canvas').on("click", "td", function() {      
+$("#pixel_canvas").on("mousemove", "td", function(e) {
     var code = document.getElementById("colorInput").value;
-    $(this).css("background-color", code);
-});
+    if (e.buttons == 1) {
+      $(this).css("background-color", code); 
+    }
+  });
 
 $("#checkbox").on("change", function() {
   if (this.checked == true) {
