@@ -1,5 +1,4 @@
-
-//     $("input[type=number]").attr("max","50");
+$("input[type=number]").attr("max","75");
 
 function makeGrid() {
     document.getElementById("pixel_canvas").innerHTML=''; 
