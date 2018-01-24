@@ -28,6 +28,11 @@ $("#pixel_canvas").on("mousemove", "td", function(e) {
     }
   });
 
+$('#pixel_canvas').on("click", "td", function() {      
+    var code = document.getElementById("colorInput").value;
+    $(this).css("background-color", code);
+});
+
 $("#checkbox").on("change", function() {
   if (this.checked == true) {
     $("td").css("border-color", "black");
