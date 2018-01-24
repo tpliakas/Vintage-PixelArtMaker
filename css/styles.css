@@ -2,6 +2,44 @@ body {
     font-family: monospace;
     text-align: center;
     background-color: azure;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: #242021;
+    position:relative;
+    left:0;
+    top:0;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+@media screen and (max-width: 940px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    h2 {
+        margin: 3em 0 1em;
+    }
+    .design-canvas {
+        margin-top: 6em;
+    }
+    .grid-picker {
+        margin-top: 6em;
+    }
+    input[type=number] {
+        display: block;
+        margin : 0 auto;    
+    }
 }
 
 h1 {
@@ -13,11 +51,7 @@ h1 {
 
 h2 {
     font-family: monospace;
-    margin: 3em 0 1em;
-}
-
-h2:first-of-type {
-    margin-top: 0.5em;
+    margin: 6em 0 1em;
 }
 
 .design-canvas {

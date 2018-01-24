@@ -8,10 +8,10 @@ function makeGrid() {
 
     for(var i = 1; i<= N; i++) {
         var row = document.getElementById("pixel_canvas").insertRow();
-        row.style.borderColor="#b3b3b3";      
+        row.style.borderColor="#242021";      
         for(var j = 1; j<= M; j++) {
             var cell = row.insertCell();
-            cell.style.borderColor="#b3b3b3";        
+            cell.style.borderColor="#242021";        
         }
     }                      
 }
